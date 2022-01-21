@@ -1,9 +1,9 @@
-
+//1
 function showTime() {
-    const date = new Date();
-    const h = date.getHours();
-    const m = date.getMinutes();
-    const s = date.getSeconds();
+    let date = new Date();
+    let h = date.getHours();
+    let m = date.getMinutes();
+    let s = date.getSeconds();
     let session = "AM";
     if(h == 0){
         h== 12;
@@ -17,4 +17,5 @@ function showTime() {
      setTimeout(showTime, 1000);
   }
   
-  showTime();
+  showTime(); 
+
